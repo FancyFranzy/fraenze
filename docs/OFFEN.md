@@ -16,5 +16,5 @@
   - Bewusst weggelassen: Telefon (Kontaktformular reicht als zweiter Kontaktweg), USt-IdNr., private Angaben
 - [ ] Altes Impressum war unvollständig (keine Anschrift, kein Telefon), verwies noch auf die abgeschaltete EU-Streitschlichtungsplattform und auf Google Analytics. Ist im neuen behoben.
 - [ ] **Kontaktformular**: ist noch nicht verbunden. Vorschlag: Cloudflare Pages Function mit E-Mail-Versand oder Formspree.
-- [ ] **Bildrechte**: Fotograf*innen der Set-Fotos und Shootings klären, ggf. Credit ergänzen. Showreel-Ausschnitte stammen aus Produktionen, Nutzung als Referenz mit den Produktionen abstimmen.
+- [ ] **Bildrechte**: Fotograf*innen der Set-Fotos und Shootings klären, ggf. Credit ergänzen. Showreel-Ausschnitte stammen aus Produktionen, Nutzung als Referenz mit den Produktionen abstimmen. Neu: Set-Foto Taube auf Schwert (`white-dove-sword-painted-sky-900.webp`): Zustimmung der abgebildeten Person und Fotograf*in fehlt noch.
 - [ ] **Instagram/Crew United/IMDb**: Links in `src/site.json` prüfen, IMDb-Profil ergänzen, falls vorhanden.

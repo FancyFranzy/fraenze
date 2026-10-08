@@ -2,6 +2,7 @@
 
 Statische, zweisprachige Website (EN unter `/`, DE unter `/de/`) für die Tiertrainerin und Tieragentur Fränze Lüttich.
 Die Person, die hier mit dir arbeitet, ist keine Entwicklerin. Erkläre, was eine Änderung bewirkt, nicht wie der Code aussieht.
+Antworten an Fränze: kurz, in Stichpunkten, nur das Wichtigste. Keine langen Erklärungen.
 
 ## Arbeitsweise
 
