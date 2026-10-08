@@ -352,8 +352,8 @@
   "de": "Hamburg und Berlin"
  },
  "contact.availability_and_a_feasibility": {
-  "en": "Availability and a feasibility note within 24 hours. Short notice? Call.",
-  "de": "Verfügbarkeit und Einschätzung innerhalb von 24 Stunden. Kurzfristig? Ruft an."
+  "en": "Availability and a feasibility note within 24 hours.",
+  "de": "Verfügbarkeit und Einschätzung innerhalb von 24 Stunden."
  },
  "contact.production": {
   "en": "Production",
@@ -400,8 +400,8 @@
   "de": "z. B. 12. bis 16. Mai"
  },
  "footer.city_or_studio": {
-  "en": "City or studio",
-  "de": "Stadt oder Studio"
+  "en": "e.g. Berlin, studio or on location",
+  "de": "z. B. Berlin, Studio oder Außendreh"
  },
  "img.raven_on_model_shoulder_studio": {
   "en": "Trained raven perched on a model’s shoulder during a studio photo shoot",
@@ -630,5 +630,17 @@
  "ens.swipe_hint": {
   "en": "Swipe for more",
   "de": "Wischen für mehr"
+ },
+ "contact.scene_ph": {
+  "en": "e.g. A fox crosses the street at night and looks into the camera.",
+  "de": "z. B. Ein Fuchs läuft nachts über die Straße und schaut in die Kamera."
+ },
+ "contact.title_ph": {
+  "en": "Film title, brand or agency",
+  "de": "Filmtitel, Marke oder Agentur"
+ },
+ "contact.contact_ph": {
+  "en": "So we can reply",
+  "de": "Damit wir antworten können"
  }
 }

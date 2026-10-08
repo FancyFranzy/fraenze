@@ -1,8 +1,8 @@
 # Offen vor dem Livegang
 
 ## Fränze muss bestätigen oder liefern
-- [ ] **Telefon/WhatsApp**: steht als `[+49 phone]` in `src/content.json` (Kontakt) und fehlt in `src/site.json` (`phone`).
-- [ ] **E-Mail**: Vorschlag `hello@fraenzeluettich.com` (Domain-Mail einrichten) oder bisherige Adresse. Steht in `src/template.html` (Kontakt) und `src/site.json`.
+- [ ] **Telefon/WhatsApp**: bewusst nicht veröffentlicht. Falls gewünscht, in `src/site.json` bei `phone` eintragen, dann erscheint es automatisch im Kontaktbereich.
+- [ ] **E-Mail**: derzeit animal_trainer@outlook.de. Später besser eine Domain-Adresse (z. B. hello@fraenzeluettich.com), dann nur in `src/site.json` ändern.
 - [ ] **Versicherungssumme**: `[amount]` / `[Summe]` im Abschnitt „Shooting in Germany“.
 - [ ] **Ensemble**: Stimmen Anzahl und Arten (2 Raben, 2 Füchse, 2 Weimaraner, 1 Dackel, Hühner)? Weitere Tiere ergänzen.
 - [ ] **Tierkategorien im Mosaik**: Welche Tiere sind wirklich über das Netzwerk buchbar?

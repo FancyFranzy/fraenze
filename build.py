@@ -123,6 +123,8 @@ def render(lang, root, page_url):
         'robots_meta': '<meta name="robots" content="noindex, nofollow">\n' if PREVIEW else '',
         'geo_js': geo_js(lang),
         'jsonld': jsonld(lang),
+        'email': SITE['email'],
+        'phone_block': ('          <div class="line-item"><div class="k">' + t('contact.phone_and_whatsapp', lang) + '</div><div class="v"><a href="tel:' + SITE['phone'].replace(' ', '') + '">' + SITE['phone'] + '</a></div></div>\n') if SITE.get('phone') else '',
         'og_image': BASE + ('img/og-image-de.jpg' if lang == 'de' else 'img/og-image.jpg'),
     }
     if lang == 'de':

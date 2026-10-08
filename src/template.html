@@ -202,17 +202,21 @@ a{color:inherit}
 .line-item .v{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-family:var(--display);font-variation-settings:"wdth" 112;font-weight:500;font-size:clamp(22px,2.4vw,34px);letter-spacing:-.01em;word-break:break-word}
 .copy{font:inherit;font-size:13px;color:var(--mute);background:none;border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer;min-height:32px}
 .copy:hover{color:var(--ink);border-color:var(--ink)}
-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-label{display:flex;flex-direction:column;gap:8px;font-size:14px;color:var(--mute)}
+.line-item .v a{color:inherit;text-decoration:none}
+form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 16px;align-content:start}
+label{display:flex;flex-direction:column;gap:8px;font-size:14px;font-weight:500;color:#cbc4b9}
 label.full{grid-column:1/-1}
-input,select,textarea{font:inherit;font-size:16px;color:var(--ink);background:transparent;border:0;border-bottom:1px solid rgba(236,230,220,.3);padding:10px 0;min-height:46px;border-radius:0}
-select option{background:var(--bg)}
-textarea{resize:vertical;min-height:96px}
-input:focus,select:focus,textarea:focus{outline:none;border-bottom-color:var(--fox)}
-form .pill{justify-self:start;min-height:52px;padding:0 28px}
+input,select,textarea{font:inherit;font-size:16px;color:var(--ink);background:rgba(236,230,220,.07);border:1px solid rgba(236,230,220,.24);border-radius:10px;padding:13px 16px;min-height:52px;width:100%;transition:border-color .2s,background .2s;-webkit-appearance:none;appearance:none}
+input::placeholder,textarea::placeholder{color:rgba(236,230,220,.36);opacity:1}
+input:hover,select:hover,textarea:hover{border-color:rgba(236,230,220,.45)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--fox);background:rgba(236,230,220,.1)}
+select{cursor:pointer;padding-right:44px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%23d9683a' stroke-width='2'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center}
+select option{background:var(--bg);color:var(--ink)}
+textarea{resize:vertical;min-height:120px;line-height:1.5}
+form .pill{justify-self:start;min-height:54px;padding:0 32px;font-size:16px}
 .form-note{grid-column:1/-1;margin:0;font-size:14px;color:var(--mute)}
 @media (max-width:860px){.contact-grid{grid-template-columns:1fr}}
-@media (max-width:520px){form{grid-template-columns:1fr}}
+@media (max-width:520px){form{grid-template-columns:1fr}form .pill{justify-self:stretch;justify-content:center}}
 
 footer{border-top:1px solid var(--line);padding-block:28px calc(28px + env(safe-area-inset-bottom,0px))}
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 28px;font-size:14px;color:var(--mute)}
@@ -579,20 +583,19 @@ footer a:hover{color:var(--ink)}
       <h2 class="display" id="contact-h">{{contact.tell_us_the_scene}}</h2>
       <div class="contact-grid">
         <div class="lines">
-          <div class="line-item"><div class="k">{{contact.email}}</div><div class="v"><span id="mail">hello@fraenzeluettich.com</span><button class="copy" type="button" data-copy="mail">{{contact.copy}}</button></div></div>
-          <div class="line-item"><div class="k">{{contact.phone_and_whatsapp}}</div><div class="v"><span>[+49 phone]</span></div></div>
-          <div class="line-item"><div class="k">{{contact.based_in}}</div><div class="v"><span>{{contact.hamburg_and_berlin}}</span></div></div>
+          <div class="line-item"><div class="k">{{contact.email}}</div><div class="v"><a id="mail" href="mailto:{{email}}">{{email}}</a><button class="copy" type="button" data-copy="mail">{{contact.copy}}</button></div></div>
+{{phone_block}}          <div class="line-item"><div class="k">{{contact.based_in}}</div><div class="v"><span>{{contact.hamburg_and_berlin}}</span></div></div>
           <p class="small">{{contact.availability_and_a_feasibility}}</p>
         </div>
         <form id="req" novalidate>
           <label for="f-type"><span>{{contact.production}}</span>
             <select id="f-type"><option>{{work.feature_film}}</option><option>{{work.series}}</option><option>{{work.commercial}}</option><option>{{contact.photo_shoot}}</option><option>{{work.music_video}}</option></select>
           </label>
-          <label for="f-title"><span>{{contact.title_or_client}}</span><input id="f-title" type="text" autocomplete="organization"></label>
+          <label for="f-title"><span>{{contact.title_or_client}}</span><input id="f-title" type="text" autocomplete="organization" placeholder="{{contact.title_ph}}"></label>
           <label for="f-dates"><span>{{contact.shoot_dates}}</span><input id="f-dates" type="text" placeholder="{{footer.e_g_12_to}}"></label>
           <label for="f-loc"><span>{{contact.location}}</span><input id="f-loc" type="text" placeholder="{{footer.city_or_studio}}"></label>
-          <label class="full" for="f-scene"><span>{{contact.what_does_the_animal}}</span><textarea id="f-scene" rows="3"></textarea></label>
-          <label class="full" for="f-contact"><span>{{contact.your_email_or_phone}}</span><input id="f-contact" type="text" autocomplete="email"></label>
+          <label class="full" for="f-scene"><span>{{contact.what_does_the_animal}}</span><textarea id="f-scene" rows="4" placeholder="{{contact.scene_ph}}"></textarea></label>
+          <label class="full" for="f-contact"><span>{{contact.your_email_or_phone}}</span><input id="f-contact" type="text" autocomplete="email" placeholder="{{contact.contact_ph}}"></label>
           <button class="pill" type="submit">{{contact.send_request}}</button>
           <p class="form-note" id="formNote" aria-live="polite"></p>
         </form>
