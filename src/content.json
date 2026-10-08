@@ -1,0 +1,630 @@
+{
+ "nav.animal_agency": {
+  "en": "Animal agency",
+  "de": "Tieragentur"
+ },
+ "nav.animals": {
+  "en": "Animals",
+  "de": "Tiere"
+ },
+ "nav.work": {
+  "en": "Work",
+  "de": "Arbeiten"
+ },
+ "nav.shooting_in_germany": {
+  "en": "Shooting in Germany",
+  "de": "Drehen in Deutschland"
+ },
+ "nav.check_availability": {
+  "en": "Check availability",
+  "de": "Anfragen"
+ },
+ "nav.contact": {
+  "en": "Contact",
+  "de": "Kontakt"
+ },
+ "hero.any_animal": {
+  "en": "Any animal.",
+  "de": "Jedes Tier."
+ },
+ "hero.ready_for_camera": {
+  "en": "Ready for camera.",
+  "de": "Bereit für die Kamera."
+ },
+ "hero.animal_agency_and_trainer": {
+  "en": "Animal agency and animal trainer for feature films, series and commercials in Germany. Hamburg and Berlin, on set across Europe.",
+  "de": "Tieragentur und Tiertrainerin für Kinofilme, Serien und Werbung in Deutschland. Hamburg und Berlin, am Set in ganz Europa."
+ },
+ "hero.watch_with_sound": {
+  "en": "Watch with sound",
+  "de": "Mit Ton ansehen"
+ },
+ "clients.trusted_by": {
+  "en": "Trusted by",
+  "de": "Gebucht von"
+ },
+ "clients.and_many_more": {
+  "en": "and many more",
+  "de": "und viele mehr"
+ },
+ "statement.our_own_ravens_foxes": {
+  "en": "Our own ravens, foxes and dogs live with us and train every day. Anything else, we find. We know the keepers and trainers across Germany, we handle the permits, and we are on set for every take.",
+  "de": "Unsere eigenen Raben, Füchse und Hunde leben bei uns und trainieren jeden Tag. Alles andere finden wir. Wir kennen die Tierhalter*innen und Trainer*innen in ganz Deutschland persönlich, kümmern uns um die Genehmigungen und sind bei jedem Take am Set."
+ },
+ "ens.the_ensemble": {
+  "en": "The ensemble",
+  "de": "Das Ensemble"
+ },
+ "ens.our_own_animals_trained": {
+  "en": "Our own animals, trained by Fränze for camera and crew.",
+  "de": "Unsere eigenen Tiere, von Fränze für Kamera und Crew trainiert."
+ },
+ "ens.ravens": {
+  "en": "Ravens",
+  "de": "Raben"
+ },
+ "ens.two": {
+  "en": "Two",
+  "de": "Zwei"
+ },
+ "ens.land_on_actors_fly": {
+  "en": "Land on actors, fly from mark to mark, hold still in close-up.",
+  "de": "Landen auf Schauspieler*innen, fliegen von Marke zu Marke, halten still im Close-up."
+ },
+ "ens.red_foxes": {
+  "en": "Red foxes",
+  "de": "Rotfüchse"
+ },
+ "ens.hand_raised_and_calm": {
+  "en": "Hand-raised and calm with people. Rare on any set in Europe.",
+  "de": "Von Hand aufgezogen und ruhig mit Menschen. An europäischen Sets eine Seltenheit."
+ },
+ "ens.weimaraners": {
+  "en": "Weimaraners",
+  "de": "Weimaraner"
+ },
+ "ens.matched_pair_so_one": {
+  "en": "Matched pair, so one can double the other on long shoots.",
+  "de": "Ein passendes Paar, einer kann den anderen bei langen Drehs doubeln."
+ },
+ "ens.dachshund": {
+  "en": "Dachshund",
+  "de": "Dackel"
+ },
+ "ens.one": {
+  "en": "One",
+  "de": "Einer"
+ },
+ "ens.fashion_stills_and_comedy": {
+  "en": "Fashion, stills and comedy. Seen in the Gucci pet campaign.",
+  "de": "Fashion, Stills und Comedy. Zu sehen in der Gucci-Pet-Kampagne."
+ },
+ "ens.chickens": {
+  "en": "Chickens",
+  "de": "Hühner"
+ },
+ "ens.a_flock": {
+  "en": "A flock",
+  "de": "Eine ganze Schar"
+ },
+ "ens.studio_proof_hens_and": {
+  "en": "Studio-proof hens and a rooster that will sit on a shoulder.",
+  "de": "Studioerprobte Hennen und ein Hahn, der sich auf die Schulter setzt."
+ },
+ "network.not_on_the_list": {
+  "en": "Not on the list?<br><em class=\"acc\">Brief us anyway.</em>",
+  "de": "Nicht auf der Liste?<br><em class=\"acc\">Trotzdem anfragen.</em>"
+ },
+ "network.tell_us_the_scene": {
+  "en": "Tell us the scene, not just the species. We source through keepers we know personally, assess every animal ourselves and prepare it for your shoot. If something isn’t safe or would be too much for the animal, we won’t do it. We tell you honestly what works, and propose what plays on camera and is right for the animal.",
+  "de": "Beschreibt uns die Szene, nicht nur die Tierart. Wir finden Tiere über Tierhalter*innen, die wir persönlich kennen, prüfen jedes Tier selbst und bereiten es auf euren Dreh vor. Was nicht sicher ist oder für das Tier zu viel wäre, machen wir nicht. Wir sagen ehrlich, was geht, und schlagen vor, was vor der Kamera funktioniert und dem Tier gut tut."
+ },
+ "network.wolves_and_wolfdogs": {
+  "en": "Wolves and wolfdogs",
+  "de": "Wölfe und Wolfshunde"
+ },
+ "network.parrots": {
+  "en": "Parrots",
+  "de": "Papageien"
+ },
+ "network.exotics": {
+  "en": "Exotics",
+  "de": "Exoten"
+ },
+ "network.birds_of_prey": {
+  "en": "Birds of prey",
+  "de": "Greifvögel und Eulen"
+ },
+ "network.farm_animals": {
+  "en": "Farm animals",
+  "de": "Nutztiere"
+ },
+ "network.penguins": {
+  "en": "Penguins",
+  "de": "Pinguine"
+ },
+ "network.rodents": {
+  "en": "Rodents",
+  "de": "Nager"
+ },
+ "network.raccoons": {
+  "en": "Raccoons",
+  "de": "Waschbären"
+ },
+ "network.reptiles": {
+  "en": "Reptiles",
+  "de": "Reptilien"
+ },
+ "network.reindeer": {
+  "en": "Reindeer",
+  "de": "Rentiere"
+ },
+ "network.insects": {
+  "en": "Insects",
+  "de": "Insekten"
+ },
+ "network.something_else": {
+  "en": "Something else?",
+  "de": "Etwas anderes?"
+ },
+ "network.ask_us_we_will": {
+  "en": "Ask us. We will find it.",
+  "de": "Fragt uns. Wir finden es."
+ },
+ "network.also_dogs_and_cats": {
+  "en": "Also dogs and cats of every size, horses, donkeys, pigs, goats, sheep, rats and spiders.",
+  "de": "Außerdem Hunde und Katzen jeder Größe, Pferde, Esel, Schweine, Ziegen, Schafe, Ratten und Spinnen."
+ },
+ "network.on_set": {
+  "en": "On set",
+  "de": "Am Set"
+ },
+ "network.show_all_set_photos": {
+  "en": "Show all set photos",
+  "de": "Alle Set-Fotos zeigen"
+ },
+ "vfx.for_vfx_animation_and": {
+  "en": "For VFX, animation and AI",
+  "de": "Für VFX, Animation und KI"
+ },
+ "vfx.real_animals_real_behaviour": {
+  "en": "Real animals. Real behaviour. Whether you shoot it, render it or generate it.",
+  "de": "Echte Tiere. Echtes Verhalten. Ob ihr es dreht, rendert oder generiert."
+ },
+ "vfx.audiences_spot_a_fake": {
+  "en": "Audiences spot a fake animal in a single step. We give VFX and AI teams trained animals that perform on cue, and an expert eye on every shot before it goes out.",
+  "de": "Das Publikum erkennt ein falsches Tier an einem einzigen Schritt. Wir geben VFX- und KI-Teams trainierte Tiere, die auf Kommando liefern, und einen Expertenblick auf jede Einstellung, bevor sie rausgeht."
+ },
+ "vfx.reference_shoots": {
+  "en": "Reference shoots",
+  "de": "Referenzdrehs"
+ },
+ "vfx.scans_and_motion_capture": {
+  "en": "Scans and motion capture",
+  "de": "Scans und Motion Capture"
+ },
+ "vfx.vfx_set_support": {
+  "en": "VFX set support",
+  "de": "VFX-Set-Support"
+ },
+ "vfx.behaviour_consulting": {
+  "en": "Behaviour consulting",
+  "de": "Verhaltensberatung"
+ },
+ "vfx.realism_review": {
+  "en": "Realism review",
+  "de": "Realismus-Check"
+ },
+ "vfx.reference_for_ai": {
+  "en": "Reference for AI",
+  "de": "Referenz für KI"
+ },
+ "vfx.talk_to_us_about": {
+  "en": "Talk to us about a VFX project",
+  "de": "Über ein VFX-Projekt sprechen"
+ },
+ "vfx.green_screen_session_with": {
+  "en": "Green screen session with our foxes and dachshunds.",
+  "de": "Greenscreen-Session mit unseren Füchsen und Dackeln."
+ },
+ "work.selected_work": {
+  "en": "Selected work",
+  "de": "Auswahl"
+ },
+ "work.hundreds_of_productions_since": {
+  "en": "Hundreds of productions since 2006. A few of the names.",
+  "de": "Hunderte Produktionen seit 2006. Ein paar der Namen."
+ },
+ "work.campaign": {
+  "en": "Campaign",
+  "de": "Kampagne"
+ },
+ "work.series": {
+  "en": "Series",
+  "de": "Serie"
+ },
+ "work.commercials": {
+  "en": "Commercials",
+  "de": "Werbung"
+ },
+ "work.commercial": {
+  "en": "Commercial",
+  "de": "Werbung"
+ },
+ "work.feature_film": {
+  "en": "Feature film",
+  "de": "Kinofilm"
+ },
+ "work.music_videos": {
+  "en": "Music videos",
+  "de": "Musikvideos"
+ },
+ "work.music_video": {
+  "en": "Music video",
+  "de": "Musikvideo"
+ },
+ "intl.shooting_in_germany_we": {
+  "en": "Shooting in Germany? We are your local animal department.",
+  "de": "Dreh in Deutschland? Wir sind euer Animal Department vor Ort."
+ },
+ "intl.local_animals_no_cross": {
+  "en": "Local animals, no cross-border transport or quarantine, German permits handled. Bringing your own head trainer? We work alongside them.",
+  "de": "Tiere aus der Region, kein Transport über Grenzen, keine Quarantäne, deutsche Genehmigungen inklusive. Ihr bringt eigene Head Trainer*innen mit? Wir arbeiten an ihrer Seite."
+ },
+ "intl.send_a_production_request": {
+  "en": "Send a production request",
+  "de": "Produktionsanfrage senden"
+ },
+ "intl.licensed": {
+  "en": "Licensed",
+  "de": "Genehmigt"
+ },
+ "intl.permit_under_11_of": {
+  "en": "Permit under §11 of the German Animal Welfare Act (TierSchG)",
+  "de": "Erlaubnis nach §11 Tierschutzgesetz"
+ },
+ "intl.insured": {
+  "en": "Insured",
+  "de": "Versichert"
+ },
+ "intl.liability_cover_for_film": {
+  "en": "Liability cover for film and commercial work [amount]",
+  "de": "Haftpflicht für Film und Werbung [Summe]"
+ },
+ "intl.welfare_first": {
+  "en": "Welfare first",
+  "de": "Tierwohl zuerst"
+ },
+ "intl.positive_reinforcement_only_vet": {
+  "en": "Positive reinforcement only, vet network, on-set vet on request",
+  "de": "Nur positive Verstärkung, Netzwerk aus Tierärzt*innen, tierärztliche Betreuung am Set auf Wunsch"
+ },
+ "intl.american_humane_guidelines": {
+  "en": "American Humane guidelines",
+  "de": "American-Humane-Richtlinien"
+ },
+ "intl.familiar_with_no_animals": {
+  "en": "Familiar with “No Animals Were Harmed” monitoring",
+  "de": "Erfahrung mit dem „No Animals Were Harmed“-Monitoring"
+ },
+ "intl.on_set_in_english": {
+  "en": "On set in English",
+  "de": "Am Set auf Englisch"
+ },
+ "intl.also_german_and_french": {
+  "en": "Also German and French",
+  "de": "Auch Deutsch und Französisch"
+ },
+ "about.some_people_talk_to": {
+  "en": "“Some people talk to animals. Not many listen though.”<cite>A. A. Milne</cite>",
+  "de": "„Manche Menschen sprechen mit Tieren. Aber nicht viele hören ihnen zu.“<cite>A. A. Milne</cite>"
+ },
+ "about.fr_nze_has_trained": {
+  "en": "Fränze has trained animals for film since 2006. Her own animals live with her and train every day, and she knows most keepers and trainers in Germany personally.",
+  "de": "Fränze trainiert seit 2006 Tiere für den Film. Ihre eigenen Tiere leben bei ihr und trainieren jeden Tag, und sie kennt fast alle Tierhalter*innen und Trainer*innen in Deutschland persönlich."
+ },
+ "about.productions_book_her_because": {
+  "en": "Productions book her because she tells them what is possible, and then delivers it.",
+  "de": "Produktionen buchen sie, weil sie sagt, was möglich ist, und es dann auch liefert."
+ },
+ "contact.tell_us_the_scene": {
+  "en": "Tell us the scene.",
+  "de": "Erzählt uns die Szene."
+ },
+ "contact.email": {
+  "en": "Email",
+  "de": "E-Mail"
+ },
+ "contact.copy": {
+  "en": "Copy",
+  "de": "Kopieren"
+ },
+ "contact.phone_and_whatsapp": {
+  "en": "Phone and WhatsApp",
+  "de": "Telefon und WhatsApp"
+ },
+ "contact.based_in": {
+  "en": "Based in",
+  "de": "Standorte"
+ },
+ "contact.hamburg_and_berlin": {
+  "en": "Hamburg and Berlin",
+  "de": "Hamburg und Berlin"
+ },
+ "contact.availability_and_a_feasibility": {
+  "en": "Availability and a feasibility note within 24 hours. Short notice? Call.",
+  "de": "Verfügbarkeit und Einschätzung innerhalb von 24 Stunden. Kurzfristig? Ruft an."
+ },
+ "contact.production": {
+  "en": "Production",
+  "de": "Produktion"
+ },
+ "contact.photo_shoot": {
+  "en": "Photo shoot",
+  "de": "Fotoshooting"
+ },
+ "contact.title_or_client": {
+  "en": "Title or client",
+  "de": "Titel oder Auftraggeber*in"
+ },
+ "contact.shoot_dates": {
+  "en": "Shoot dates",
+  "de": "Drehtage"
+ },
+ "contact.location": {
+  "en": "Location",
+  "de": "Drehort"
+ },
+ "contact.what_does_the_animal": {
+  "en": "What does the animal need to do?",
+  "de": "Was soll das Tier tun?"
+ },
+ "contact.your_email_or_phone": {
+  "en": "Your email or phone",
+  "de": "Eure E-Mail oder Telefonnummer"
+ },
+ "contact.send_request": {
+  "en": "Send request",
+  "de": "Anfrage senden"
+ },
+ "footer.2026_fr_nze_l": {
+  "en": "© 2026 Fränze Lüttich, animal agency and training for film",
+  "de": "© 2026 Fränze Lüttich, Tieragentur und Tiertraining für Film"
+ },
+ "footer.imprint": {
+  "en": "Imprint",
+  "de": "Impressum"
+ },
+ "footer.e_g_12_to": {
+  "en": "e.g. 12 to 16 May",
+  "de": "z. B. 12. bis 16. Mai"
+ },
+ "footer.city_or_studio": {
+  "en": "City or studio",
+  "de": "Stadt oder Studio"
+ },
+ "img.raven_on_model_shoulder_studio": {
+  "en": "Trained raven perched on a model’s shoulder during a studio photo shoot",
+  "de": "Trainierter Rabe auf der Schulter eines Models bei einem Studio-Shooting"
+ },
+ "img.fraenze_luettich_red_fox": {
+  "en": "Animal trainer Fränze Lüttich holding her hand-raised red fox",
+  "de": "Tiertrainerin Fränze Lüttich mit ihrem handaufgezogenen Rotfuchs"
+ },
+ "img.weimaraner_sitting_up_on_cue": {
+  "en": "Weimaraner sitting up on its hind legs on cue",
+  "de": "Weimaraner macht auf Kommando Männchen"
+ },
+ "img.dachshund_on_boulder": {
+  "en": "Dachshund standing on a large boulder",
+  "de": "Dackel steht auf einem großen Felsen"
+ },
+ "img.rooster_studio_training": {
+  "en": "Rooster on a stool taking a treat from Fränze in the studio",
+  "de": "Hahn auf einem Hocker nimmt im Studio ein Leckerli von Fränze"
+ },
+ "img.wolfdog_fraenze_mountains": {
+  "en": "Fränze shaking paws with a wolfdog in front of mountains",
+  "de": "Fränze gibt einem Wolfshund vor Bergkulisse Pfötchen"
+ },
+ "img.cockatoo_actor_on_set": {
+  "en": "White cockatoo on an actor’s hand during a shoot",
+  "de": "Weißer Kakadu auf der Hand eines Schauspielers beim Dreh"
+ },
+ "img.camel_zebra_street_shoot": {
+  "en": "Camel and zebra with their handler on a city street shoot",
+  "de": "Kamel und Zebra mit Betreuerin beim Dreh auf einer Straße"
+ },
+ "img.eagle_owl_fraenze_wings": {
+  "en": "Fränze with an eagle owl spreading its wings",
+  "de": "Fränze mit einem Uhu, der die Flügel ausbreitet"
+ },
+ "img.purple_cow_commercial": {
+  "en": "Cow painted purple on an alpine meadow for a commercial",
+  "de": "Lila bemalte Kuh auf einer Almwiese für einen Werbedreh"
+ },
+ "img.penguins_handling": {
+  "en": "Trainer holding two penguins",
+  "de": "Trainerin hält zwei Pinguine"
+ },
+ "img.chinchilla_handling": {
+  "en": "Chinchilla resting on a trainer’s hands",
+  "de": "Chinchilla ruht auf den Händen einer Trainerin"
+ },
+ "img.raccoon_actor_shoulder": {
+  "en": "Raccoon climbing onto an actor’s shoulder",
+  "de": "Waschbär klettert auf die Schulter eines Schauspielers"
+ },
+ "img.black_snake_handling": {
+  "en": "Black snake curled around a hand",
+  "de": "Schwarze Schlange an einer Hand"
+ },
+ "img.reindeer_on_location": {
+  "en": "Reindeer on a meadow on location",
+  "de": "Rentier auf einer Wiese am Drehort"
+ },
+ "img.stick_insect_hand": {
+  "en": "Stick insect on a hand",
+  "de": "Gespenstschrecke auf einer Hand"
+ },
+ "img.frog_close_up_focus_mark": {
+  "en": "Frog on a hand under the camera’s focus mark during a close-up",
+  "de": "Frosch auf einer Hand, im Close-up unter der Fokusmarkierung der Kamera"
+ },
+ "img.set_monitor_dogs_scene": {
+  "en": "On-set monitor showing a scene with dogs on a riverside promenade",
+  "de": "Set-Monitor zeigt eine Szene mit Hunden an einer Uferpromenade"
+ },
+ "img.weimaraner_cinema_camera": {
+  "en": "Weimaraner looking into a cinema camera",
+  "de": "Weimaraner schaut in eine Kinokamera"
+ },
+ "img.camera_operator_weimaraner": {
+  "en": "Camera operator at work with a Weimaraner leaning on his shoulder",
+  "de": "Kameramann bei der Arbeit, ein Weimaraner lehnt an seiner Schulter"
+ },
+ "img.weimaraner_camera_car": {
+  "en": "Weimaraner holding a sit in front of a remote camera car",
+  "de": "Weimaraner bleibt vor einem ferngesteuerten Kamerawagen sitzen"
+ },
+ "img.studio_crew_dog_shoot": {
+  "en": "Film crew and trainers working with a dog in a white studio",
+  "de": "Filmteam und Trainerinnen arbeiten mit einem Hund im weißen Studio"
+ },
+ "img.wolf_music_video_stage": {
+  "en": "Wolf on a lit stage during a music video shoot",
+  "de": "Wolf auf einer beleuchteten Bühne beim Musikvideo-Dreh"
+ },
+ "img.crew_filming_dogs_field": {
+  "en": "Crew filming two dogs on a country path",
+  "de": "Team filmt zwei Hunde auf einem Feldweg"
+ },
+ "img.outdoor_set_weimaraner_cue": {
+  "en": "Outdoor set with crew, lights and a Weimaraner waiting for its cue",
+  "de": "Außenset mit Team, Licht und einem Weimaraner, der auf seinen Einsatz wartet"
+ },
+ "img.chickens_directors_chair": {
+  "en": "Chickens on a director’s chair in a film studio",
+  "de": "Hühner auf einem Regiestuhl im Filmstudio"
+ },
+ "img.chickens_studio_floor_marks": {
+  "en": "Trainers handling chickens on a studio set with floor marks",
+  "de": "Trainerinnen mit Hühnern auf einem Studioset mit Bodenmarkierungen"
+ },
+ "img.rooster_green_screen_astronaut": {
+  "en": "Rooster on the glove of a performer in an astronaut suit on green screen",
+  "de": "Hahn auf dem Handschuh einer Person im Astronautenanzug vor Greenscreen"
+ },
+ "img.rooster_green_screen_set": {
+  "en": "Rooster on a performer’s back on a green screen set",
+  "de": "Hahn auf dem Rücken einer darstellenden Person am Greenscreen-Set"
+ },
+ "img.premiere_red_carpet_dog": {
+  "en": "Cast and dog on the red carpet at a film premiere",
+  "de": "Cast mit Hund auf dem roten Teppich einer Filmpremiere"
+ },
+ "img.actors_sofa_weimaraner": {
+  "en": "Two actors on a sofa with a Weimaraner between them on set",
+  "de": "Zwei Schauspieler mit einem Weimaraner auf dem Sofa am Set"
+ },
+ "img.camels_night_shoot": {
+  "en": "Camels with costumed riders on a night shoot",
+  "de": "Kamele mit kostümierten Reiter*innen bei einem Nachtdreh"
+ },
+ "img.zebra_on_set": {
+  "en": "Fränze leading a zebra on set",
+  "de": "Fränze führt ein Zebra am Set"
+ },
+ "img.purple_cow_alpine_meadow": {
+  "en": "Fränze kneeling next to a cow painted purple on an alpine meadow",
+  "de": "Fränze kniet neben einer lila bemalten Kuh auf der Alm"
+ },
+ "img.reindeer_christmas_shoot": {
+  "en": "Reindeer with a gift basket during a Christmas shoot",
+  "de": "Rentier mit Geschenkkorb bei einem Weihnachtsdreh"
+ },
+ "img.dogs_equipment_truck": {
+  "en": "Trainer with dogs on the tail lift of an equipment truck",
+  "de": "Trainerin mit Hunden auf der Ladebühne eines Equipment-Trucks"
+ },
+ "img.dog_make_up_room": {
+  "en": "Dog waiting in the make-up room before a shoot",
+  "de": "Hund wartet vor dem Dreh in der Maske"
+ },
+ "img.weimaraner_studio_light": {
+  "en": "Weimaraner standing on a table under studio lights",
+  "de": "Weimaraner steht auf einem Tisch im Studiolicht"
+ },
+ "img.rooster_two_performers": {
+  "en": "Rooster between two performers on location",
+  "de": "Hahn zwischen zwei Darstellerinnen am Drehort"
+ },
+ "img.fraenze_green_iguana": {
+  "en": "Fränze with a green iguana",
+  "de": "Fränze mit einem grünen Leguan"
+ },
+ "img.actor_dogs_apartment_set": {
+  "en": "Actor rehearsing with two dogs on an apartment set",
+  "de": "Schauspieler probt mit zwei Hunden in einem Wohnungs-Set"
+ },
+ "img.green_screen_foxes_dachshunds": {
+  "en": "Fränze on a green screen stage with two foxes and two dachshunds",
+  "de": "Fränze mit zwei Füchsen und zwei Dackeln im Greenscreen-Studio"
+ },
+ "img.fraenze_luettich_portrait_raccoon": {
+  "en": "Portrait of animal trainer Fränze Lüttich with a raccoon",
+  "de": "Porträt der Tiertrainerin Fränze Lüttich mit Waschbär"
+ },
+ "meta.title": {
+  "en": "Animal Trainer & Film Animals in Germany | Fränze Lüttich",
+  "de": "Filmtiere & Tiertrainerin in Deutschland | Fränze Lüttich"
+ },
+ "meta.description": {
+  "en": "Animal agency and trainer for film, series and commercials in Germany. Trained ravens, foxes and dogs, any other animal sourced. Hamburg, Berlin, Europe.",
+  "de": "Tieragentur und Tiertrainerin für Kinofilm, Serie und Werbung. Eigene trainierte Raben, Füchse und Hunde, jedes andere Tier auf Anfrage. Hamburg, Berlin, Europa."
+ },
+ "meta.og_alt": {
+  "en": "Horses galloping across a wide plain, still from the showreel of animal trainer Fränze Lüttich",
+  "de": "Galoppierende Pferde in weiter Landschaft, Standbild aus dem Showreel der Tiertrainerin Fränze Lüttich"
+ },
+ "meta.job_title": {
+  "en": "Animal trainer for film and television",
+  "de": "Tiertrainerin für Film und Fernsehen"
+ },
+ "meta.business_desc": {
+  "en": "Animal agency and animal trainer for feature films, series, commercials and VFX reference in Germany and across Europe.",
+  "de": "Tieragentur und Tiertrainerin für Kinofilm, Serie, Werbung und VFX-Referenz in Deutschland und Europa."
+ },
+ "js.copied": {
+  "en": "Copied",
+  "de": "Kopiert"
+ },
+ "js.copy": {
+  "en": "Copy",
+  "de": "Kopieren"
+ },
+ "js.draft": {
+  "en": "This is a design draft. The form is not connected yet, so nothing was sent.",
+  "de": "Das ist ein Designentwurf. Das Formular ist noch nicht verbunden, es wurde nichts gesendet."
+ },
+ "ui.lang_label": {
+  "en": "Language",
+  "de": "Sprache"
+ },
+ "ui.menu": {
+  "en": "Menu",
+  "de": "Menü"
+ },
+ "ui.close_reel": {
+  "en": "Close showreel",
+  "de": "Showreel schließen"
+ },
+ "404.title": {
+  "en": "Page not found",
+  "de": "Seite nicht gefunden"
+ },
+ "404.text": {
+  "en": "This page does not exist. Go back to the start page.",
+  "de": "Diese Seite gibt es nicht. Zurück zur Startseite."
+ }
+}
