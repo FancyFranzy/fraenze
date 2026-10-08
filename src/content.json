@@ -392,8 +392,8 @@
   "de": "© 2026 Fränze Lüttich, Tieragentur und Tiertraining für Film"
  },
  "footer.imprint": {
-  "en": "Imprint",
-  "de": "Impressum"
+  "en": "Imprint & privacy",
+  "de": "Impressum & Datenschutz"
  },
  "footer.e_g_12_to": {
   "en": "e.g. 12 to 16 May",
@@ -626,5 +626,9 @@
  "404.text": {
   "en": "This page does not exist. Go back to the start page.",
   "de": "Diese Seite gibt es nicht. Zurück zur Startseite."
+ },
+ "ens.swipe_hint": {
+  "en": "Tap or swipe",
+  "de": "Tippen oder wischen"
  }
 }

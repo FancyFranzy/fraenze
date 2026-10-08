@@ -173,6 +173,18 @@ def manifest():
                       ensure_ascii=False, indent=1)
 
 
+def impressum():
+    tpl = open(os.path.join(ROOT, 'src', 'impressum.html'), encoding='utf-8').read()
+    d = datetime.date.today()
+    monate = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember']
+    vals = {'root': '../', 'base': BASE, 'email': SITE['email'], 'year': str(d.year),
+            'today_de': f'{monate[d.month - 1]} {d.year}'}
+    out = re.sub(r'\{\{([a-z_]+)\}\}', lambda m: vals[m.group(1)], tpl)
+    if 'class="todo"' in out:
+        print('Achtung: Im Impressum sind noch Platzhalter offen (orange markiert). Vor dem Livegang ausfüllen!')
+    return out
+
+
 def write(rel, text):
     p = os.path.join(ROOT, rel)
     os.makedirs(os.path.dirname(p), exist_ok=True)
@@ -189,4 +201,5 @@ if __name__ == '__main__':
     write('sitemap.xml', sitemap())
     write('robots.txt', robots())
     write('site.webmanifest', manifest())
+    write('impressum/index.html', impressum())
     print('Fertig:', 'VORSCHAU (noindex)' if PREVIEW else 'LIVE', BASE)
