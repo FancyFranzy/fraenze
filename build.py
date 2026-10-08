@@ -41,7 +41,7 @@ def jsonld(lang):
         '@type': 'ProfessionalService',
         '@id': BASE + '#business',
         'name': 'Fränze Lüttich',
-        'alternateName': 'Fränze Lüttich Animal Agency' if lang == 'en' else 'Fränze Lüttich Tieragentur',
+        'alternateName': 'Fränze Lüttich Animal Talent Agency' if lang == 'en' else 'Fränze Lüttich Filmtieragentur',
         'url': URL[lang],
         'description': t('meta.business_desc', lang),
         'image': BASE + 'img/og-image.jpg',

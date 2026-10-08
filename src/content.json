@@ -1,7 +1,7 @@
 {
  "nav.animal_agency": {
-  "en": "Animal agency",
-  "de": "Tieragentur"
+  "en": "Animal talent agency",
+  "de": "Filmtieragentur"
  },
  "nav.animals": {
   "en": "Animals",
@@ -32,8 +32,8 @@
   "de": "Bereit für die Kamera."
  },
  "hero.animal_agency_and_trainer": {
-  "en": "Animal agency and animal trainer for feature films, series and commercials. Based in Hamburg, on set across Germany and Europe.",
-  "de": "Tieragentur und Tiertrainerin für Kinofilme, Serien und Werbung. Zu Hause in Hamburg, buchbar in ganz Deutschland und Europa."
+  "en": "Animal talent agency and animal trainer for feature films, series and commercials. Based in Hamburg, on set across Germany and Europe.",
+  "de": "Filmtieragentur und Tiertrainerin für Kinofilme, Serien und Werbung. Zu Hause in Hamburg, buchbar in ganz Deutschland und Europa."
  },
  "hero.watch_with_sound": {
   "en": "Watch with sound",
@@ -580,8 +580,8 @@
   "de": "Filmtiere & Tiertrainerin in Deutschland | Fränze Lüttich"
  },
  "meta.description": {
-  "en": "Animal agency and trainer for film, series and commercials. Trained ravens, foxes and dogs, any other animal sourced. Based in Hamburg, on set across Europe.",
-  "de": "Tieragentur und Tiertrainerin für Film und Werbung. Eigene trainierte Raben, Füchse und Hunde, jedes andere Tier auf Anfrage. Aus Hamburg, buchbar in ganz Europa."
+  "en": "Animal talent agency and trainer for film, series and commercials. Trained ravens, foxes and dogs, any other animal sourced. Based in Hamburg, on set across Europe.",
+  "de": "Filmtieragentur und Tiertrainerin für Kino, Serie und Werbung. Eigene Raben, Füchse und Hunde, jedes andere Tier auf Anfrage. Aus Hamburg, buchbar in ganz Europa."
  },
  "meta.og_alt": {
   "en": "Horses galloping across a wide plain, still from the showreel of animal trainer Fränze Lüttich",
@@ -592,8 +592,8 @@
   "de": "Tiertrainerin für Film und Fernsehen"
  },
  "meta.business_desc": {
-  "en": "Animal agency and animal trainer for feature films, series, commercials and VFX reference in Germany and across Europe.",
-  "de": "Tieragentur und Tiertrainerin für Kinofilm, Serie, Werbung und VFX-Referenz in Deutschland und Europa."
+  "en": "Animal talent agency and animal trainer for feature films, series, commercials and VFX reference in Germany and across Europe.",
+  "de": "Filmtieragentur und Tiertrainerin für Kinofilm, Serie, Werbung und VFX-Referenz in Deutschland und Europa."
  },
  "js.copied": {
   "en": "Copied",
