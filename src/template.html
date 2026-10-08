@@ -206,6 +206,7 @@ a{color:inherit}
 form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 16px;align-content:start}
 label{display:flex;flex-direction:column;gap:8px;font-size:14px;font-weight:500;color:#cbc4b9}
 label.full{grid-column:1/-1}
+label[hidden]{display:none}
 input,select,textarea{font:inherit;font-size:16px;color:var(--ink);background:rgba(236,230,220,.07);border:1px solid rgba(236,230,220,.24);border-radius:10px;padding:13px 16px;min-height:52px;width:100%;transition:border-color .2s,background .2s;-webkit-appearance:none;appearance:none}
 input::placeholder,textarea::placeholder{color:rgba(236,230,220,.36);opacity:1}
 input:hover,select:hover,textarea:hover{border-color:rgba(236,230,220,.45)}
@@ -589,9 +590,10 @@ footer a:hover{color:var(--ink)}
         </div>
         <form id="req" novalidate>
           <label for="f-type"><span>{{contact.production}}</span>
-            <select id="f-type"><option>{{work.feature_film}}</option><option>{{work.series}}</option><option>{{work.commercial}}</option><option>{{contact.photo_shoot}}</option><option>{{work.music_video}}</option></select>
+            <select id="f-type"><option>{{work.feature_film}}</option><option>{{work.series}}</option><option>{{work.commercial}}</option><option>{{contact.photo_shoot}}</option><option>{{work.music_video}}</option><option value="other">{{contact.other}}</option></select>
           </label>
           <label for="f-title"><span>{{contact.title_or_client}}</span><input id="f-title" type="text" autocomplete="organization" placeholder="{{contact.title_ph}}"></label>
+          <label class="full" for="f-other" id="otherWrap" hidden><span>{{contact.other_label}}</span><input id="f-other" type="text" placeholder="{{contact.other_ph}}"></label>
           <label for="f-dates"><span>{{contact.shoot_dates}}</span><input id="f-dates" type="text" placeholder="{{footer.e_g_12_to}}"></label>
           <label for="f-loc"><span>{{contact.location}}</span><input id="f-loc" type="text" placeholder="{{footer.city_or_studio}}"></label>
           <label class="full" for="f-scene"><span>{{contact.what_does_the_animal}}</span><textarea id="f-scene" rows="4" placeholder="{{contact.scene_ph}}"></textarea></label>
@@ -736,6 +738,10 @@ footer a:hover{color:var(--ink)}
     });
   });
   function sel(el){ var r = document.createRange(); r.selectNodeContents(el); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); }
+
+  // form: 'other' production type opens its own field
+  var ftype = document.getElementById('f-type'), otherWrap = document.getElementById('otherWrap');
+  ftype.addEventListener('change', function(){ var on = ftype.value === 'other'; otherWrap.hidden = !on; if (on) document.getElementById('f-other').focus(); });
 
   // form (draft)
   document.getElementById('req').addEventListener('submit', function(e){

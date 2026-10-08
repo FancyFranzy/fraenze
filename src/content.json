@@ -642,5 +642,17 @@
  "contact.contact_ph": {
   "en": "So we can reply",
   "de": "Damit wir antworten können"
+ },
+ "contact.other": {
+  "en": "Other",
+  "de": "Andere"
+ },
+ "contact.other_label": {
+  "en": "What kind of project?",
+  "de": "Was für ein Projekt?"
+ },
+ "contact.other_ph": {
+  "en": "e.g. theatre, event, social media, VFX",
+  "de": "z. B. Theater, Event, Social Media, VFX"
  }
 }

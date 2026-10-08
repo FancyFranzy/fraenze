@@ -207,6 +207,7 @@ a{color:inherit}
 form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 16px;align-content:start}
 label{display:flex;flex-direction:column;gap:8px;font-size:14px;font-weight:500;color:#cbc4b9}
 label.full{grid-column:1/-1}
+label[hidden]{display:none}
 input,select,textarea{font:inherit;font-size:16px;color:var(--ink);background:rgba(236,230,220,.07);border:1px solid rgba(236,230,220,.24);border-radius:10px;padding:13px 16px;min-height:52px;width:100%;transition:border-color .2s,background .2s;-webkit-appearance:none;appearance:none}
 input::placeholder,textarea::placeholder{color:rgba(236,230,220,.36);opacity:1}
 input:hover,select:hover,textarea:hover{border-color:rgba(236,230,220,.45)}
@@ -590,9 +591,10 @@ footer a:hover{color:var(--ink)}
         </div>
         <form id="req" novalidate>
           <label for="f-type"><span>Production</span>
-            <select id="f-type"><option>Feature film</option><option>Series</option><option>Commercial</option><option>Photo shoot</option><option>Music video</option></select>
+            <select id="f-type"><option>Feature film</option><option>Series</option><option>Commercial</option><option>Photo shoot</option><option>Music video</option><option value="other">Other</option></select>
           </label>
           <label for="f-title"><span>Title or client</span><input id="f-title" type="text" autocomplete="organization" placeholder="Film title, brand or agency"></label>
+          <label class="full" for="f-other" id="otherWrap" hidden><span>What kind of project?</span><input id="f-other" type="text" placeholder="e.g. theatre, event, social media, VFX"></label>
           <label for="f-dates"><span>Shoot dates</span><input id="f-dates" type="text" placeholder="e.g. 12 to 16 May"></label>
           <label for="f-loc"><span>Location</span><input id="f-loc" type="text" placeholder="e.g. Berlin, studio or on location"></label>
           <label class="full" for="f-scene"><span>What does the animal need to do?</span><textarea id="f-scene" rows="4" placeholder="e.g. A fox crosses the street at night and looks into the camera."></textarea></label>
@@ -737,6 +739,10 @@ footer a:hover{color:var(--ink)}
     });
   });
   function sel(el){ var r = document.createRange(); r.selectNodeContents(el); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); }
+
+  // form: 'other' production type opens its own field
+  var ftype = document.getElementById('f-type'), otherWrap = document.getElementById('otherWrap');
+  ftype.addEventListener('change', function(){ var on = ftype.value === 'other'; otherWrap.hidden = !on; if (on) document.getElementById('f-other').focus(); });
 
   // form (draft)
   document.getElementById('req').addEventListener('submit', function(e){
