@@ -10,13 +10,10 @@
 - [ ] **VFX/KI**: Gab es schon Jobs mit VFX-Anteil? Dann als Beispiel nennen.
 - [ ] **American Humane**: Aussage „Familiar with No Animals Were Harmed monitoring“ nur, wenn zutreffend.
 - [ ] **Impressum** (`src/impressum.html`, orange markierte Stellen; `build.py` warnt, solange etwas offen ist):
-  - ladungsfähige Anschrift (Straße, PLZ, Ort; kein Postfach). Wer die Privatadresse nicht zeigen will: Geschäftsadresse oder ein Büroservice mit Zustellvollmacht.
-  - Telefonnummer (zweiter schneller Kontaktweg neben E-Mail)
-  - USt-IdNr., falls vorhanden; sonst den Abschnitt löschen
+  - ladungsfähige Anschrift (Pflicht, kein Postfach). Bewusst keine Wohnadresse: Geschäftsadresse, Coworking oder Büroservice mit Postannahme nutzen.
   - Behörde, die die Erlaubnis nach § 11 TierSchG erteilt hat, mit Anschrift
-  - zuständige Datenschutz-Aufsichtsbehörde (nach Wohn-/Firmensitz)
-  - weitere Fotograf*innen im Bildnachweis, Zustimmung der Produktionen zum Showreel
   - Hinweis zum Formular-Dienst, sobald das Formular angeschlossen ist
+  - Bewusst weggelassen: Telefon (Kontaktformular reicht als zweiter Kontaktweg), USt-IdNr., private Angaben
 - [ ] Altes Impressum war unvollständig (keine Anschrift, kein Telefon), verwies noch auf die abgeschaltete EU-Streitschlichtungsplattform und auf Google Analytics. Ist im neuen behoben.
 - [ ] **Kontaktformular**: ist noch nicht verbunden. Vorschlag: Cloudflare Pages Function mit E-Mail-Versand oder Formspree.
 - [ ] **Bildrechte**: Fotograf*innen der Set-Fotos und Shootings klären, ggf. Credit ergänzen. Showreel-Ausschnitte stammen aus Produktionen, Nutzung als Referenz mit den Produktionen abstimmen.

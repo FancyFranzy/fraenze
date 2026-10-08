@@ -123,6 +123,7 @@ def render(lang, root, page_url):
         'robots_meta': '<meta name="robots" content="noindex, nofollow">\n' if PREVIEW else '',
         'geo_js': geo_js(lang),
         'jsonld': jsonld(lang),
+        'og_image': BASE + ('img/og-image-de.jpg' if lang == 'de' else 'img/og-image.jpg'),
     }
     if lang == 'de':
         vals['href_en'] = '../'
