@@ -41,11 +41,11 @@
  },
  "clients.trusted_by": {
   "en": "Trusted by",
-  "de": "Gebucht von"
+  "de": "Gearbeitet für"
  },
  "clients.and_many_more": {
   "en": "and many more",
-  "de": "und vielen mehr"
+  "de": "und viele mehr"
  },
  "statement.our_own_ravens_foxes": {
   "en": "Our own ravens, foxes and dogs live with us and train every day. Anything else, we find. We have a wide network of keepers and trainers across Germany, we handle the permits, and we are on set for every take.",
@@ -654,5 +654,41 @@
  "contact.other_ph": {
   "en": "e.g. theatre, event, social media, VFX",
   "de": "z. B. Theater, Event, Social Media, VFX"
+ },
+ "method.kicker": {
+  "en": "How we work",
+  "de": "So arbeiten wir"
+ },
+ "method.title": {
+  "en": "With the animal, never against it.",
+  "de": "Mit dem Tier, nie gegen das Tier."
+ },
+ "method.lead": {
+  "en": "Relaxed animals give better takes. That is why their wellbeing comes first on every set.",
+  "de": "Entspannte Tiere spielen besser. Deshalb steht ihr Wohl an jedem Set an erster Stelle."
+ },
+ "method.p1_t": {
+  "en": "Trust, patience, reward",
+  "de": "Vertrauen, Geduld, Belohnung"
+ },
+ "method.p1": {
+  "en": "Only positive, animal-friendly methods. We build every behaviour with reward, never with pressure.",
+  "de": "Ausschließlich positive, tierfreundliche Methoden. Jedes Verhalten bauen wir über Belohnung auf, nie über Druck."
+ },
+ "method.p2_t": {
+  "en": "Natural behaviour",
+  "de": "Natürliches Verhalten"
+ },
+ "method.p2": {
+  "en": "We work with what the animal offers on its own and shape it into the shot. That is what makes it look real on camera.",
+  "de": "Wir arbeiten mit dem, was das Tier von sich aus zeigt, und formen daraus die Einstellung. Genau das wirkt vor der Kamera echt."
+ },
+ "method.p3_t": {
+  "en": "Calm and safe on set",
+  "de": "Ruhig und sicher am Set"
+ },
+ "method.p3": {
+  "en": "A stress-free, safe environment and breaks whenever the animal needs them. If something is too much, we say so.",
+  "de": "Ein stressfreies, sicheres Umfeld und Pausen, wann immer das Tier sie braucht. Was zu viel ist, sagen wir offen."
  }
 }
