@@ -48,7 +48,7 @@ def jsonld(lang):
         'logo': BASE + 'icon-512.png',
         'email': SITE['email'],
         'areaServed': [{'@type': 'Country', 'name': 'Germany'}, {'@type': 'Country', 'name': 'Austria'},
-                       {'@type': 'Country', 'name': 'Switzerland'}, {'@type': 'Place', 'name': 'Europe'}],
+                       {'@type': 'Country', 'name': 'Switzerland'}, {'@type': 'Place', 'name': 'Worldwide'}],
         'address': {'@type': 'PostalAddress', 'addressLocality': 'Hamburg', 'addressCountry': 'DE'},
         'knowsLanguage': ['en', 'de', 'fr'],
         'knowsAbout': ['Animal training for film', 'Film animals', 'Animal wrangling', 'Animal reference for VFX',
