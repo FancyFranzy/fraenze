@@ -16,7 +16,7 @@
 3. **Crew United**: Website-Link eintragen, Credits aktuell halten. Wichtigster Branchen-Link.
 4. **IMDb**: Credits nachtragen lassen, Website verlinken.
 5. **Film Commissions / Location Guides**: Hamburg Film Commission (MOIN), Medienboard Berlin-Brandenburg, FFF Bayern, Film- und Medienstiftung NRW, The Location Guide, Screen Global Production. Dort als Dienstleisterin listen lassen.
-6. **Google Business Profile** als Gebiets-Unternehmen ohne Adresse (Hamburg, Berlin, Deutschland). Name, Mail, Telefon exakt wie auf der Website.
+6. **Google Business Profile** als Gebiets-Unternehmen ohne Adresse (Hamburg, ganz Deutschland). Name, Mail, Telefon exakt wie auf der Website.
 7. **Instagram-Bio** auf die neue Domain verlinken.
 
 ## Später (lohnt sich, wenn Zeit ist)
