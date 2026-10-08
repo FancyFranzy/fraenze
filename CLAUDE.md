@@ -7,7 +7,8 @@ Die Person, die hier mit dir arbeitet, ist keine Entwicklerin. Erkläre, was ein
 
 - Texte nur in `src/content.json` ändern, immer `en` **und** `de`. Neue Texte bekommen einen neuen Schlüssel und im Template `{{schluessel}}`.
 - Aufbau/Design in `src/template.html`. Pfade zu Dateien immer mit `{{root}}` beginnen (`{{root}}img/…`), sonst bricht die deutsche Seite.
-- Nach jeder Änderung `python3 build.py` ausführen (Live-Version). `--preview` nur für die GitHub-Pages-Vorschau (setzt noindex).
+- Nach jeder Änderung bauen. Solange die Seite nur auf GitHub Pages läuft (kilianamrehn.github.io/fraenze oder unter Fränzes GitHub-Namen): `python3 build.py --preview` (für Google gesperrt). Sobald die echte Domain auf Cloudflare läuft: `python3 build.py`.
+- Danach die Änderungen committen und auf `main` pushen. GitHub Pages bzw. Cloudflare veröffentlichen automatisch nach 1 bis 2 Minuten. Fränze bekommt am Ende immer kurz gesagt, was sich geändert hat und den Link zum Anschauen.
 - `index.html`, `de/index.html`, `404.html`, `sitemap.xml`, `robots.txt`, `site.webmanifest` sind generiert. Nie direkt bearbeiten.
 - Vor dem Abschluss beide Seiten im Browser prüfen (Handy- und Desktop-Breite).
 
